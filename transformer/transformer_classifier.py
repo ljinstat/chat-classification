@@ -20,5 +20,5 @@ model.train_model(train_df)
 result, model_outputs, wrong_predictions = model.eval_model(eval_df, acc=accuracy_score)
 print('evaluation scores of the model {}'.format(result))
 
-predictions, raw_outputs = model.predict(['Buy me 10m BMW']) # please put your prediction here
+predictions, raw_outputs = model.predict(['your sentence here']) # please put your prediction here
 print(predictions)
