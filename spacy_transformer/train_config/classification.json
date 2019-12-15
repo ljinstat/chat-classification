@@ -1,0 +1,22 @@
+{
+    "classification": {
+    "model" : "en_trf_bertbaseuncased_lg",
+    "input_train_path" : "/Users/lingjin/Desktop/étude/sense_street/chat_classification_git/spacy_transformer/spacy_transformer/data/train.tsv",
+    "input_dev_path" : "/Users/lingjin/Desktop/étude/sense_street/chat_classification_git/spacy_transformer/spacy_transformer/data/validation.tsv",
+    "input_test_path" : "/Users/lingjin/Desktop/étude/sense_street/chat_classification_git/spacy_transformer/spacy_transformer/data/validation.tsv",
+    "output_path" : "/Users/lingjin/Desktop/étude/sense_street/chat_classification_git/spacy_transformer/spacy_transformer/experiments/checkpoints",
+    "n_iter" : 5,
+    "n_texts" : 100,
+    "batch_size" : 8,
+    "learn_rate" : 2e-5,
+    "max_wpb" : 1000,
+    "use_test" : false,
+    "pos_label" : null,
+    "alpha" : 0.001,
+    "l2" : 0.0,
+    "weight_decay" : 0.005,
+    "eval_every" : 100,
+    "patience" : 3,
+    "dropout_rate" : 0.1
+    }
+}
