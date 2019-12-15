@@ -15,7 +15,7 @@ class ClassificationDataReader:
         return "".join(c for c in unicodedata.normalize("NFD", text)
                        if unicodedata.category(c) != "Mn")
 
-    def load_data(self, *, limit=1000, dev_size=200):
+    def load_data(self, *, limit=100, dev_size=20):
         """Load data from the IMDB dataset for test, splitting off a held-out set."""
         if limit != 0:
             limit += dev_size
